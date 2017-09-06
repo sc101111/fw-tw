@@ -19,15 +19,18 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 42,
-    "versionPublish": "4.0.17",
-    "path": "@PROJECT_PATH@",
+    "uniqCompNum": 45,
+    "versionPublish": "4.1.2",
+    "path": "file:///D:/wamp/www/taiwan",
     "favicon": "",
     "noImageResize": "",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///D:/wamp/www/china/cn-guopei"
   },
   "pages": {
     "index.html": {
@@ -86,7 +89,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "@primaryColor!important"
+              "color": "#c0a375!important"
             },
             ".btn": {
               "font-size": "20px"
@@ -97,7 +100,7 @@
             "showBrand": true,
             "hideButtons": false,
             "sticky": false,
-            "collapsed": true,
+            "collapsed": false,
             "transparent": true,
             "bgColor": "#2e2e2e",
             "fontSize": "1.5",
@@ -105,11 +108,11 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.123contactform.com/form-2764113/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Supplier's Demand</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"imind-suit mbr-iconfont mbr-iconfont-btn\"></span>Designer's Demand</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"fa fa-cc-paypal mbr-iconfont mbr-iconfont-btn\"></span>Visa/Master</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.123contactform.com/form-2764113/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span>Latest Notice</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Supplier's Demand</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"imind-suit mbr-iconfont mbr-iconfont-btn\"></span>Designer's Demand</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"fa fa-cc-paypal mbr-iconfont mbr-iconfont-btn\"></span>Visa/Master</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/tw.svg",
+              "src": "@PROJECT_PATH@/assets/images/kr.svg",
               "height": 128,
               "alt": "Mobirise",
               "link": "",
@@ -121,80 +124,76 @@
               "linkInNewWindow": false,
               "name": "magic-stick",
               "family": "MobiriseIcons",
-              "link": "#",
+              "link": "https://mobirise.com",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-15"
+          "_anchor": "menu-17"
         },
         {
-          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "left",
+              "font-size": "25px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000",
+              "text-align": "left",
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/style_561dba2cc4277-622x402.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Kimseoryong",
+          "subtitle": "<span style=\"font-style: normal;\">김서룡</span>, Korea, Asia",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SUBSCRIBE</a>",
+          "form": {
+            "action": "simonchang1108@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "header4",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "left",
-              "font-size": "80px",
-              "color": "#000000"
-            },
-            ".mbr-section-lead B": {
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-            },
-            ".mbr-section-lead": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            },
-            ".mbr-section-lead SPAN": {
-              "font-size": "25px",
-              "color": "#000000"
-            }
-          },
-          "_anchor": "header4-s",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "left",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/daniel-wong-2000x1333.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/YT6Nv03EGiY?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.1"
-          },
-          "title": "Daniel Wong",
-          "text": "<span style=\"font-style: normal;\"><b>Daniel Wong, Taiwan, Asia</b></span>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"#\" data-toolbar=\"-mbrBtnMove\">One Art</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"#\" data-toolbar=\"-mbrBtnMove\">One Product</a>"
+          "_name": "form2",
+          "_anchor": "form2-16"
         },
         {
           "_params": {
             "showTitle": true,
             "showSubtitle": false,
             "showDates": false,
-            "iconsColor": "#666666",
             "blocks": "3",
             "paddingTop": "0",
             "paddingBottom": "0",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#2e2e2e",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extHeader14_bg.jpg",
             "bgVideoRadio": false,
@@ -205,12 +204,11 @@
             "overlayColor": "#151515",
             "overlayOpacity": 0.5
           },
-          "mainTitle": "TIMELINE BLOCK",
-          "bottomTitle": "Concept: Exploration defines the attitude and thought behind Daniel Wong's work, with strong and delicate visual prints. Daniel Wong represents a modern and confident style of esthetic. This style and thought has been influenced by the richly cultured background of Daniel Wong's past: A mix of cultures.&nbsp;",
+          "mainTitle": "TIMELINE",
           "mainSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-          "title1": "Part I",
-          "title2": "Part II",
-          "title3": "2015-2017 FW",
+          "title1": "PART &nbsp;I",
+          "title2": "PART &nbsp;II",
+          "title3": "Concept :&nbsp;",
           "title4": "4. Design out of the box",
           "title5": "5. Awesome Reports",
           "title6": "6. Multi Homepages",
@@ -232,9 +230,9 @@
           "date10": "10 October 2016",
           "date11": "11 November 2016",
           "date12": "12 December 2016",
-          "text1": "Born in Canada and spend his childhood in Scotland living in Hong Kong, Taiwan, London and Milan these hybrid influences are the strong foundation of Daniel Wong's bold visual images. After graduating from Central St. Martins in London he gain the opportunity to work for Alexander Mcqueen in London where he was involved in designing shoes for the runway and pre collections. During this time he worked on the Platos Atlantis runway show shown in Paris.&nbsp;",
-          "text2": "Exploring for new horizons, Daniel Wong travelled to Milan and embarked on his MA in Istituto Marangoni. During this time he was discovered by Versace, which he started working for. After graduating Daniel Wong became the Print designer for the Versace House that includes Women's, Men's wear runway and also Haute Couture collections. Throughout this time he worked on over 10 different collections all shown in Milan or Paris fashion week. \n<br>The Daniel Wong label has a unique and impactful imagery inspired by the explorers of the past, the discovery of the future. Daniel Wong designs aims to accompany the strong minded to be Explorers of the world.&nbsp;",
-          "text3": "AUTUMN/WINTER2017, SPRING/SUMMER2017, AUTUMN/WINTER2016, SPRING/SUMMER2016, AUTUMN/WINTER2015, SPRING/SUMMER2015<br>",
+          "text1": "2011,2013 Collaboration with `CIVAS Regal’&nbsp;<br>2013. KBEE2013 LONDON OLD BILLINGSGATE <br>",
+          "text2": "2014.    kimseoryong womenswear 런칭\n<br>2014 FW 뉴욕 패션위크 참가<br>2015. 2002 S/S - 2015 F/W 서울패션위크 서울컬렉션 참가&nbsp;<br>2016 S/S \" Hey, good looking \"&nbsp;<br>",
+          "text3": "Based on classic suit, modern fashion sense through designer's tailoring technique, wit and formal style oriented.",
           "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
@@ -244,138 +242,17 @@
           "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
           "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-extFeatures2",
-              "name": "layers",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "upload",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "linegraph",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "heart",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "pencil",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-extFeatures2",
-              "name": "layers",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media7": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "upload",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media8": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "linegraph",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media9": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "heart",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media10": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "pencil",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media11": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "heart",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media12": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "pencil",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extFeatures13",
-          "_anchor": "extFeatures13-13",
+          "_name": "extFeatures11",
+          "_anchor": "extFeatures11-18",
           "_styles": {
-            ".etl-icon": {
-              "color": "#666666"
+            "H4": {
+              "text-align": "left"
             },
-            ".mbr-section-title": {
-              "font-size": "16px",
+            "P": {
               "text-align": "left"
             }
           }
@@ -400,24 +277,26 @@
             "bgColor": "#a07e49",
             "bgVideoRadio": true,
             "bgVideo": {
+              "url": "https://www.youtube.com/embed/XcQPZxYmEzg?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/XcQPZxYmEzg",
               "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/O9uyBcbEimc?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "height": 720
             },
             "overlay": true,
             "overlayColor": "#000",
             "overlayOpacity": "0.3"
           },
-          "title": "2017 AW The Odyssey",
-          "text": "Daniel Wong",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"#\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"#\">DOWNLOAD FOR MAC</a>",
+          "title": "Kimseoryong",
+          "text": "김서룡 (Kim Seo Ryong)",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-lead": {
               "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "18px"
             },
             ".mbr-section-title": {
-              "font-size": "48px"
+              "font-size": "36px"
             }
           }
         },
@@ -433,7 +312,7 @@
             "paddingTop": 0,
             "paddingBottom": 0,
             "filterBgColor": false,
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "showText": false,
             "filter": false,
             "images": [
@@ -442,80 +321,88 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dw1-2000x2996-800x1198.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dw1-2000x2996.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/collection-14-16-o-1be2png4plpv1hhf18h71boivj422-664x1000-664x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/collection_14_16_o_1be2png4plpv1hhf18h71boivj422-664x1000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dw2-2000x3000-800x1200.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dw2-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/collection-14-16-o-1be2png4pflh9o4795mpl67i1m-664x1000-664x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/collection_14_16_o_1be2png4pflh9o4795mpl67i1m-664x1000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Creative",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dw3-2000x3000-800x1200.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dw3-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/collection-14-16-o-1be2png4pd8flcv1kkv1egktcp21-664x1000-664x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/collection_14_16_o_1be2png4pd8flcv1kkv1egktcp21-664x1000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dw4-2000x3000-800x1200.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dw4-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/collection-14-16-o-1be2png4p15jm15uaq2cb211mpt1l-664x1000-664x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/collection_14_16_o_1be2png4p15jm15uaq2cb211mpt1l-664x1000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dw5-2000x2996-800x1198.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dw5-2000x2996.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/collection-14-16-o-1be2png4p4og17aa1jjoikimgd1v-664x1000-664x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/collection_14_16_o_1be2png4p4og17aa1jjoikimgd1v-664x1000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dw6-2000x2996-800x1198.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dw6-2000x2996.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/collection-14-16-o-1be2png4p1vg5j58ke4nmt1khj1n-664x1000-664x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/collection_14_16_o_1be2png4p1vg5j58ke4nmt1khj1n-664x1000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dw7-2000x3000-800x1200.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dw7-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/collection-14-16-o-1be2png4p1gnm2gl1tkk1lagp1g20-664x1000-664x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/collection_14_16_o_1be2png4p1gnm2gl1tkk1lagp1g20-664x1000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": false,
+                "alt": ""
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dw8-2000x2996-800x1198.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dw8-2000x2996.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/collection-14-16-o-1be2png4p1fon1f5k1m351mhocto1t-664x1000-664x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/collection_14_16_o_1be2png4p1fon1f5k1m351mhocto1t-664x1000.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": true,
+                "alt": ""
               }
             ]
           },
@@ -532,13 +419,13 @@
             "showForm": true,
             "inverse": false,
             "googleMap": {
-              "address": "台北市信義區松德路72號B1樓",
-              "placeId": "ChIJjXa3FaSrQjQRhU-nCToajGI",
+              "address": "서울특별시 강남구 도산대로 25길 35",
+              "placeId": "ChIJceT4JZOjfDURPB5fZrth7C4",
               "state": "ok",
               "stateDetails": ""
             },
             "bgImageRadio": false,
-            "bgImage": "file:///C:/Users/User/AppData/Local/#/Mobirise/projectData/img_extForm1_bg.jpg",
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/img_extForm1_bg.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fafafa",
@@ -551,15 +438,15 @@
             "overlayOpacity": 0.1
           },
           "title": "DROP A MESSAGE",
-          "title1": "To : Daneil Wong",
+          "title1": "To : 김서룡 (Kim Seo Ryong)",
           "title2": "Visit our office",
           "subTitle1": "Ready for offers & cooperation",
           "subTitle2": "Glad to meet new people",
-          "text1": "Address: &nbsp;&nbsp; B1F., No.72, Songde Rd., Xinyi Dist., \n<br>Taipei City 110, Taiwan (R.O.C.) \n<br>SHOWROOM\n<br>E-Mail : info@jollify4ever.com \n<br>TEL : 886-2-8786-1666<br>",
+          "text1": "Address: &nbsp;&nbsp;No. 112 Changshu Road, Jing'an District, Shanghai, China<br>E-Mail :&nbsp;legionhomme@hanmail.net<br>TEL :&nbsp;02 3444 3512<br>Fax:&nbsp;02 3444 3511",
           "text2": "1234 Street Name </br> City AA 99999",
-          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>",
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND MESSAGE</a>",
           "form": {
-            "action": "info@jollify4ever.com",
+            "action": "legionhomme@hanmail.net",
             "alerts": {
               "success": "Thanks for filling out form!"
             },

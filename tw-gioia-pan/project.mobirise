@@ -585,7 +585,7 @@
             "overlayColor": "#000000",
             "overlayOpacity": "0"
           },
-          "title": "<div><div><div><span style=\"font-size: 30px;\">&nbsp;GIOIA PAN</span></div><div>&nbsp;Taiwan, Asia</div></div></div>",
+          "title": "<div><div><div><span style=\"font-size: 30px;\">GIOIA PAN</span></div><div>&nbsp;Taiwan, Asia</div></div></div>",
           "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">One Art</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">One Product</a>"
         },
@@ -598,8 +598,8 @@
             "showForm": true,
             "inverse": false,
             "googleMap": {
-              "address": "2F., No.28, Huating St., Datong Dist., Taipei City 10350, Taiwan (R.O.C.)",
-              "placeId": "ChIJ0yazRhOpQjQRHd-MUqHgH5g",
+              "address": "2F-1, No. 216, MinChuan W. Rd., Taipei, Taiwan",
+              "placeId": "Ei0xMDPlj7DngaPlj7DljJfluILlpKflkIzljYDmsJHmrIropb_ot68yMTbomZ8",
               "state": "ok",
               "stateDetails": ""
             },
@@ -619,13 +619,13 @@
           "title": "DROP A MESSAGE",
           "title1": "To : GIOIA PAN<br>",
           "title2": "Visit our office",
-          "subTitle1": "2F., No.28, Huating St., Datong Dist., Taipei City 10350, Taiwan (R.O.C.)<br>Phone: +886 2 5555 100<div><br></div>",
+          "subTitle1": "2F-1, No. 216, MinChuan W. Rd., Taipei, Taiwan<br><br><div><br></div>",
           "subTitle2": "Glad to meet new people",
           "text1": "",
           "text2": "1234 Street Name </br> City AA 99999",
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND MESSAGE</a>",
           "form": {
-            "action": "justinchou@justincase.com.tw",
+            "action": "gioiapan.us@gmail.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
