@@ -26,15 +26,17 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 81,
+    "uniqCompNum": 85,
     "versionPublish": "4.2.4",
-    "path": "@PROJECT_PATH@",
+    "path": "file:///D:/wamp/www/taiwan",
     "favicon": "",
     "noImageResize": "",
     "mcShopcart": {
       "email": "simonchang1108@gmail.com"
     },
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -155,12 +157,12 @@
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "inverse": false,
+            "inverse": true,
             "imageSize": "35",
             "paddingTop": "2",
             "paddingBottom": "0",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/shokay2017collection-847x477.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/image41-848x478.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -217,7 +219,7 @@
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/shokay2017collection-854x480.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/image5-1254x706.jpg",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -420,89 +422,6 @@
         },
         {
           "_params": {
-            "autoplay": false,
-            "animType": "fade",
-            "theme": "angular",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1593x900.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-850x480.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1592x900.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-846x478.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-84x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1600x898.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-849x477.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-85x47.png",
-                "title": "title 3",
-                "text": "text 3",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1595x900.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-851x480.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-1-85x47.png",
-                "title": "title 1",
-                "text": "text 1",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1600x899.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-2-850x478.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-2-85x47.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false
-              }
-            ],
-            "fullScreen": true,
-            "showCaptions": false,
-            "hideControls": false,
-            "responsive": "2",
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "captionsEffect": "slide",
-            "showBullets": false,
-            "bgColor": "#ffffff",
-            "timeout": "1",
-            "duration": "0.5",
-            "customSize": false,
-            "customWidth": "1600",
-            "customHeight": "1080",
-            "size": "1024x576",
-            "width": "1024",
-            "height": "576"
-          },
-          "articleLayout": false,
-          "alias": "wowslider",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "wowslider",
-          "_anchor": "wowslider-28"
-        },
-        {
-          "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": false,
@@ -527,7 +446,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/figure-2-geographical-distribution-of-the-yak-bos-grunniens-d-loop-haplogroups-in.png-700x495.jpg",
+              "src": "file:///D:/wamp/www/yak/assets/images/figure-2-geographical-distribution-of-the-yak-bos-grunniens-d-loop-haplogroups-in.png-700x495.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -571,6 +490,112 @@
         },
         {
           "_params": {
+            "showTitle": false,
+            "showSearch": false,
+            "rowСount": "1",
+            "colCount": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/sky_3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Name</th></tr></thead><tbody><tr><td><b>Designers Demand</b></td><td><b>Suppliers Demand</b></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_customHTML": "<section class=\"mbr-section extTable1\" data-rv-view=\"255\" style=\"background-color:White; padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container table-wrapper\" info3-text=\"(filtered from\" data-search=\"false\" search-text=\"Search:\" info1-text=\"Showing\" info2-text=\"entries\" info4-text=\"total entries)\">      \n        <table class=\"table mbr-editable-content\" cellspacing=\"0\" width=\"100%\" code-editable-id=\"245\"><thead><tr></tr></thead><tbody><tr><td><a href=\"#\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span><h6>Message</h6></a></td><td><a href=\"#\"><span class=\"mbri-gift mbr-iconfont mbr-iconfont-btn\"></span><h6>Activity</h6></a></td><td><a href=\"#\"><span class=\"etl-icon icon-chat mbr-iconfont mbr-iconfont-btn\"></span><h6>Reports</h6></a></td><td><a href=\"#\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span><h6>Video</h6></a></td></tr></tbody></table></div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nTABLE {\n  text-align: center;\n    \n}\nTD {\n  font-size: 22px;\n    \n  font-family: 'Oxygen', sans-serif;\n}\nB {\n  font-size: 36px;\n}\na:hover {\n    color: red;\n    text-decoration:none; \n    background-color: white;\n}\ntd:hover {border: 1px solid gray;}",
+          "_customTemplate": true,
+          "_anchor": "extTable1-2b"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_name": "social-buttons4",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding\" data-rv-view=\"4429\" style=\"background-color: rgb(46, 46, 46); padding-top:15px; padding-bottom: 0px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-size: 24px;\" code-editable-id=\"159\"><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc8QvzXoe5hGYvYhUM0UsOrURJ8XcpToInXDZ564OLiTuikKA/viewform\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Global Designers / Join Now</a></h3>\n                \n            </div>\n        </div>\n    </div>\n</section>",
+          "_customCSS": "@import url(undefined);\n.mbr-section-title, .btn-social {\n  color: #fff;\n}\na:hover {\n    color: white;\n    text-decoration:none; \n    \n}",
+          "_customTemplate": true,
+          "_anchor": "social-buttons4-2c"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSearch": false,
+            "rowСount": "1",
+            "colCount": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/sky.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Name</th></tr></thead><tbody><tr><td><b>Designers Demand</b></td><td><b>Suppliers Demand</b></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_customHTML": "<section class=\"mbr-section extTable1\" data-rv-view=\"255\" style=\"background-color:White; padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container table-wrapper\" info3-text=\"(filtered from\" data-search=\"false\" search-text=\"Search:\" info1-text=\"Showing\" info2-text=\"entries\" info4-text=\"total entries)\">      \n        <table class=\"table mbr-editable-content\" cellspacing=\"0\" width=\"100%\" code-editable-id=\"145\"><thead><tr></tr></thead><tbody><tr><td><a href=\"#\"><span class=\"fa fa-comment-o mbr-iconfont mbr-iconfont-btn\"></span><h2>Designers Demand</h2></a></td><td><a href=\"#\"><span class=\"fa fa-volume-up mbr-iconfont mbr-iconfont-btn\"></span><h2>Suppliers Demand</h2></a></td></tr></tbody></table></div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nTABLE {\n  text-align: center;\n}\nTD {\n  font-size: 24px;\n    \n  font-family: 'Oxygen', sans-serif;\n}\nB {\n  font-size: 36px;\n}\na:hover {\n    color: red;\n    text-decoration:none; \n    background-color: white;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "extTable1-2a"
+        },
+        {
+          "_params": {
             "showBullets": true,
             "fullWidth": false,
             "spacing": 0,
@@ -582,169 +607,279 @@
             "filter": false,
             "images": [
               {
-                "tags": "Animated",
+                "tags": "Beautiful",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-851x478.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-851x478-800x449.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1-850x478.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-1-850x478-800x449.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-852x478.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-852x478-800x448.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-851x479.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-851x479-800x450.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-854x478.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-854x478-800x447.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-853x479.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-853x479-800x449.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-850x479.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-850x479-800x450.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-852x476.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-852x476-800x446.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1-850x479.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-1-850x479-800x450.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-850x478.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-850x478-800x449.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-852x479.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-852x479-800x449.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1-852x478.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-1-852x478-800x448.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1-849x477.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-1-849x477-800x449.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-846x476.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-846x476-800x450.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-850x477.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shokay2017collection-850x477-800x448.jpg",
+                "image": "@PROJECT_PATH@/assets/images/maxresdefault-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/maxresdefault-1280x720-800x450.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image6-1252x702.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image6-1252x702-800x448.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image7-1252x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image7-1252x706-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image8-1252x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image8-1252x706-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image9-1252x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image9-1252x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image10-1252x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image10-1252x706-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image11-1252x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image11-1252x706-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image12-1248x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image12-1248x706-800x452.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image13-1254x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image13-1254x706-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image14-1254x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image14-1254x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image15-1254x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image15-1254x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image16-1252x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image16-1252x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image17-1252x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image17-1252x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image19-1254x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image19-1254x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image20-1252x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image20-1252x706-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image21-1252x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image21-1252x706-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image23-1254x708.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image23-1254x708-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image24-1252x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image24-1252x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image25-1252x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image25-1252x706-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image26-1252x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image26-1252x706-800x451.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image27-1254x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image27-1254x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image28-1256x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image28-1256x706-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image29-1254x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image29-1254x706-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image30-1254x706.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image30-1254x706-800x450.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image31-1252x704.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image31-1252x704-800x449.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
               }
             ]
           },
@@ -784,7 +919,7 @@
             },
             ".mbr-section-title DIV": {
               "font-size": "25px",
-              "color": "#000000"
+              "color": "#c1c1c1"
             },
             ".mbr-section-title SPAN": {
               "color": "#c1c1c1"
@@ -813,7 +948,7 @@
             "overlayColor": "#000000",
             "overlayOpacity": "0"
           },
-          "title": "<div><span style=\"color: rgb(0, 0, 0);\">Shokay 17' 18' Collection,<br>Taiwan, Asia</span><br></div>",
+          "title": "<div><span style=\"font-size: 30px;\">Shokay 17-18</span></div><div>Taiwan, Asia</div>",
           "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">One Art</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">One Product</a>"
         },
