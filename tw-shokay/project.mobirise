@@ -34,7 +34,9 @@
     "mcShopcart": {
       "email": "simonchang1108@gmail.com"
     },
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///D:/wamp/www/taiwan/tw-shokay"
   },
   "pages": {
     "index.html": {

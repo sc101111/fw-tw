@@ -25,7 +25,7 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 74,
+    "uniqCompNum": 72,
     "versionPublish": "4.2.4",
     "path": "@PROJECT_PATH@",
     "favicon": "",
@@ -46,13 +46,105 @@
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "1.5rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.624rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2e2e2e",
+            "fontSize": "1.5",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.123contactform.com/form-2764113/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span>Latest Notice</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Supplier's Demand</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"imind-suit mbr-iconfont mbr-iconfont-btn\"></span>Designer's Demand</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"fa fa-cc-paypal mbr-iconfont mbr-iconfont-btn\"></span>Visa/Master</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/logo-150x80.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "magic-stick",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1y"
+        },
+        {
           "_params": {
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "columnsColor": "#ffffff",
+            "columnsColor": "#2e2e2e",
             "paddingTop": "0",
             "paddingBottom": "1",
             "columns": "6",
@@ -60,7 +152,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -71,7 +163,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/gb.svg",
+              "src": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/gb.svg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -83,7 +175,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/us.svg",
+              "src": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/us.svg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -95,7 +187,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/us.svg",
+              "src": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/us.svg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -107,7 +199,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/fr.svg",
+              "src": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/fr.svg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -119,7 +211,7 @@
           },
           "media5": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/de.svg",
+              "src": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/de.svg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -142,63 +234,65 @@
             }
           },
           "title1": "UK",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Aberdeen Fashion Week\n<br>Africa Fashion Week London\n<br>Birmingham International FW\n<br>Brighton Fashion Week\n<br>Cheltenham Fashion Week\n<br>Cork Fashion Week\n<br>Global Kids Fashion Week\n<br>Graduate Fashion Week\n<br>Hull Fashion Week\n<br>Liverpool Fashion Week\n<br>London Fashion Week\n<br>London Collections \n<br>Norwich Fashion Week\n<br>Oxford Fashion Week\n<br>Edinburgh Online FW\n<br>Moda Lingerie &amp; Swimwear\n<br>Moda Woman\n<br>Scoop International Fashion Show\n<br>Your Wedding Exhibition",
+          "subtitle1": "United Kindoms",
+          "caption1": "<div style=\"text-align: left;\">Aberdeen Fashion Week<br>Africa Fashion Week London<br>Birmingham International FW<br>Brighton Fashion Week<br>Cheltenham Fashion Week<br>Cork Fashion Week<br>Global Kids Fashion Week<br>Graduate Fashion Week<br>Hull Fashion Week<br>Liverpool Fashion Week<br>London Fashion Week<br>London Collections&nbsp;<br>Norwich Fashion Week<br>Oxford Fashion Week<br>Edinburgh Online FW</div><div style=\"text-align: left;\">Moda Lingerie &amp; Swimwear<br>Moda Woman<br>Scoop International Fashion Show<br>Your Wedding Exhibition</div>",
           "title2": "USA",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "African Fashion Week Chicago\n<br>All Things Ankara Fashion Week\n<br>Austin Fashion Week\n<br>Birmingham Fashion Week\n<br>Boston Curvy Fashion Week\n<br>College Fashion Week\n<br>Columbus Fashion Week\n<br>Couture Fashion Week\n<br>Curves Fashion Week\n<br>Chicago Couture Fashion Week\n<br>Cincinnatie Fashion Week\n<br>Fashion Week New Orleans\n<br>Fashion Week Brooklyn\n<br>Fashion Week Cleveland\n<br>Fashion Week El Paseo\n<br>Fashion Week Las Vegas",
+          "caption2": "<span style=\"font-size: 1rem; line-height: 1.5;\">African Fashion Week Chicago</span><br>    All Things Ankara Fashion Week<br>    Austin Fashion Week<br>    Birmingham Fashion Week<br>    Boston Curvy Fashion Week<br>    College Fashion Week<br>    Columbus Fashion Week<br>    Couture Fashion Week<br>    Curves Fashion Week<br>    Chicago Couture Fashion Week<br>    Cincinnatie Fashion Week<br>    Fashion Week New Orleans<br>    Fashion Week Brooklyn<br>    Fashion Week Cleveland<br>    Fashion Week El Paseo<br>    Fashion Week Las Vegas<br><br>",
           "title3": "USA",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Mercedes-Benz FW Swim Miami\n<br>Miami International Fashion Week\n<br>Miami Fashion Week\n<br>Miami Swim Show\n<br>New Jersey\n<br>NY Bridal Fashion Week\n<br>Mercedes-Benz Fashionweek New York\n<br>Los Angeles FW\n<br>Orange County FW\n<br>Oneofakind Baton Rouge Fashion Week\n<br>Philadelphia Small Business FW\n<br>Pittsburg Fashion Week\n<br>Santa Fe Fashion Week\n<br>Queer Fashion Week\n<br>Utah Fashion Week\n<br>West Palm Beach Fashion Week\n<br>Indianapolis Midwest Fashion Week \n<br>Little Rock Fashion Week",
+          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\">Mercedes-Benz FW Swim Miami</span><br>Miami International Fashion Week<br>Miami Fashion Week<br>Miami Swim Show<br>New Jersey<br>NY Bridal Fashion Week<br>Mercedes-Benz Fashionweek New York<br>Los Angeles FW<br>Orange County FW<br>Oneofakind Baton Rouge Fashion Week<br>Philadelphia Small Business FW<br>Pittsburg Fashion Week<br>Santa Fe Fashion Week<br>Queer Fashion Week<br>Utah Fashion Week<br>West Palm Beach Fashion Week<br>Indianapolis Midwest Fashion Week\n<br>Little Rock Fashion Week<br>",
           "title4": "France",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Paris Fashion Week\n<br>Pulp Fashion Week\n<br>Texworld Paris\n<br>Apparel Sourcing Paris\n<br>Interfiliere Paris\n<br>La Rencontre Du Mariage Et Du Pacs Strasbourg\n<br>MCB Creations And Trends Show\n<br>Premiere Vision-France\n<br>Salon Du Mariage Casino De Royat\n<br>Vendome Luxury Tradeshow",
-          "title5": "Germany",
+          "caption4": "<span style=\"font-size: 1rem; line-height: 1.5;\">Paris Fashion Week</span><br>Pulp Fashion Week<br>Texworld Paris<br>Apparel Sourcing Paris<br>Interfiliere Paris<br>La Rencontre Du Mariage Et Du Pacs Strasbourg<br>MCB Creations And Trends Show<br>Premiere Vision-France<br>Salon Du Mariage Casino De Royat<br>Vendome Luxury Tradeshow<br>",
+          "title5": "Germany<br>",
           "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Berlin Fashion Week\n<br>Mercedes-Benz Fashionweek Berlin\n<br>Fashion Week Düsseldorf\n<br>Munich Fashion Week\n<br>Bread &amp; Butter Berlin\n<br>Heldenmarkt Stuttgart\n<br>Just Married Hof,\n<br>Laundry and more Expo\n<br>Mmc Dessous Paradise\n<br>Moda Made in Italy\n<br>Rostock Wedding Fair\n<br>Spirit and Life Dortmund,\n<br>Top Hair International\n<br>Wedding Fair Wedding &amp; Celebrations",
+          "caption5": "Berlin Fashion Week<br>Mercedes-Benz Fashionweek Berlin<br>Fashion Week Düsseldorf<br>Munich Fashion Week<br>Bread &amp; Butter Berlin<br>Heldenmarkt Stuttgart<br>Just Married Hof,<br>Laundry and more Expo<br>Mmc Dessous Paradise<br>Moda Made in Italy<br>Rostock Wedding Fair<br>Spirit and Life Dortmund,<br>Top Hair International<br>Wedding Fair Wedding &amp; Celebrations",
           "title6": "Canada",
           "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Black Fashion Week Montreal \n<br>Eco Fashion Week Vancouver \n<br>Montreal Fashion Week \n<br>Saskatchewan Fahsion Week \n<br>Toronto Men's Fashion Week \n<br>Vancouver Fashion Week \n<br>Western Canada Fashion Week \n<br>World Master Card Fashion Week",
-          "button1": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
+          "caption6": "Black Fashion Week Montreal\n<br>Eco Fashion Week Vancouver\n<br>Montreal Fashion Week\n<br>Saskatchewan Fahsion Week\n<br>Toronto Men's Fashion Week\n<br>Vancouver Fashion Week\n<br>Western Canada Fashion Week\n<br>World Master Card Fashion Week",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "features1",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#ffffff"
+              "background-color": "#2e2e2e"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text SPAN": {
+              "font-size": "14px",
+              "text-align": "left",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text DIV": {
+              "text-align": "right",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "16px",
+              "color": "#ffffff"
             },
             ".mbr-cards-col:nth-child(even) .card-text": {
               "text-align": "left",
               "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "color": "#ffffff"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-text SPAN": {
-              "text-align": "left",
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "color": "#232323"
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
               "text-align": "left",
               "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "color": "#232323"
-            },
-            ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#ffffff"
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
             },
             ".mbr-cards-col:nth-child(odd) .card-title": {
-              "color": "#232323"
+              "text-align": "center"
             }
           },
-          "_anchor": "features1-21"
+          "_anchor": "features1-1x"
         },
         {
           "_tags": [
@@ -300,7 +394,7 @@
           },
           "title3": "Romania",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Feeric Fashion Week<br>Fashion Revolution Romania<br>",
+          "caption3": "Feeric Fashion Week",
           "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
@@ -332,7 +426,7 @@
           },
           "title5": "China",
           "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "<span style=\"text-align: left; font-size: 1rem; line-height: 1.5;\">Mercedes Benz China Fashion Week</span><br>    Hong Kong Fashion Week<br>    Shanghai Fashion Week<br>East China Fair<br>Fashion Access<br>China International Fashion Fair (China International Fashion Fair (CHIC))&nbsp;<br>Ningbo International Fashion Fair<br>Shenzhen International Fashion Accessories Exhibition&nbsp;<br>",
+          "caption5": "<span style=\"text-align: left; font-size: 1rem; line-height: 1.5;\">Mercedes Benz China Fashion Week</span><br>    Hong Kong Fashion Week<br>    Shanghai Fashion Week<br>East China Fair<br>Fashion Access&nbsp;<br><br>",
           "button5": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
             "image": {
@@ -348,7 +442,7 @@
           },
           "title6": "Japan",
           "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Amazon Fashion Week Tokyo<br>JFW International Fashion Fair<br>MAGIC JAPAN<br>Asia Fashion Fair (AFF)<br>Woman Expo Fukuoka<br>Tokyo Shoes Expo Autumn<br>Fashion World Tokyo<br>Tokyo Men's Fashion Expo Autumn<br>Tokyo Fashion Wear Expo<br>",
+          "caption6": "Amazon Fashion Week Tokyo",
           "button6": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>"
         },
         {
