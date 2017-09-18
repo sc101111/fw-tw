@@ -26,13 +26,13 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 74,
-    "versionPublish": "4.3.0",
+    "versionPublish": "4.2.4",
     "path": "@PROJECT_PATH@",
-    "favicon": "@PROJECT_PATH@/assets/images/030-worldwide-128x128-1.png",
+    "favicon": "",
     "noImageResize": "",
     "screenshot": "screenshot.png",
-    "google-analytics": "",
-    "cookiesAlert": ""
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -268,7 +268,7 @@
           },
           "title1": "Italy",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Milan Fashion Week<br>Mercedes-Benz Fashion Week Milan<br>MIPEL<br>Ferrara Sposi<br>Mare D Amare<br>Milano Moda Donna<br><span style=\"text-align: left; font-size: 1rem; line-height: 1.5;\">Super&nbsp;</span><br>Venezia Sposi<br>White Milano<br>SPOSI EXPO<br>Womens World<br>",
+          "caption1": "Milan Fashion Week<br>Mercedes-Benz Fashion Week Milan<br>MIPEL<br>Ferrara Sposi<br>Mare D Amare<br>Milano Moda Donna<br><span style=\"text-align: left; font-size: 1rem; line-height: 1.5;\">Super&nbsp;</span><br>Venezia Sposi<br>",
           "button1": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
@@ -300,7 +300,7 @@
           },
           "title3": "Romania",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Feeric Fashion Week<br>Fashion Revolution Romania<br>Bucharest Fashion Week<br>",
+          "caption3": "Feeric Fashion Week<br>Fashion Revolution Romania<br>",
           "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
