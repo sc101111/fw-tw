@@ -20,19 +20,19 @@
         "isScrollToTopButton": false,
         "isRtl": false
       },
-      "additionalSetColors": [
-        "#057eaf"
-      ]
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 114,
+    "uniqCompNum": 112,
     "versionPublish": "4.3.0",
     "path": "@PROJECT_PATH@",
     "favicon": "@PROJECT_PATH@/assets/images/030-worldwide-128x128.png",
     "noImageResize": "",
     "screenshot": "screenshot.png",
     "google-analytics": "",
-    "cookiesAlert": ""
+    "cookiesAlert": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -118,7 +118,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.123contactform.com/form-2764113/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSc8QvzXoe5hGYvYhUM0UsOrURJ8XcpToInXDZ564OLiTuikKA/viewform\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Join Suppliers</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSc8QvzXoe5hGYvYhUM0UsOrURJ8XcpToInXDZ564OLiTuikKA/viewform\"><span class=\"imind-suit mbr-iconfont mbr-iconfont-btn\"></span>Join Designers</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.123contactform.com/form-2764113/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Join Suppliers</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=0&amp;item_name=&amp;currency_code=USD\"><span class=\"imind-suit mbr-iconfont mbr-iconfont-btn\"></span>Join Designers</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -209,15 +209,15 @@
           "_anchor": "msg-box8-1a",
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButton": false,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/fashion-design-slide-1-2000x833.jpg",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#057eaf",
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -227,7 +227,7 @@
             "overlayOpacity": "0.2"
           },
           "title": "Global FW Register",
-          "text": "",
+          "text": "<p><b>Top fashion designers, fabrics' suppliers and events.</b></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
@@ -257,7 +257,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503-403x503.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20140056_1822481637778691_1101919753761645308_n-403x503.jpg",
                 "caption": "Type caption here",
                 "active": true,
                 "alt": ""
@@ -268,7 +268,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395-292x395.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ont+row+views+sb31twlanvsl-292x395.jpg",
                 "caption": "Type caption here",
                 "active": false,
                 "alt": ""
