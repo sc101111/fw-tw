@@ -23,7 +23,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 112,
+    "uniqCompNum": 109,
     "versionPublish": "4.3.0",
     "path": "@PROJECT_PATH@",
     "favicon": "@PROJECT_PATH@/assets/images/030-worldwide-128x128.png",
@@ -58,15 +58,13 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
+              "color": "#ffffff"
             },
             ".link": {
-              "font-size": "3.95rem"
+              "font-size": "1.5rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "4.278rem"
+              "font-size": "1.624rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -91,12 +89,10 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#000000!important"
+              "color": "@primaryColor!important"
             },
             ".btn": {
-              "font-size": "18px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -107,12 +103,8 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#2e2e2e",
-            "fontSize": "3.95",
-            "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
-            },
+            "fontSize": "1.5",
+            "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
@@ -141,7 +133,7 @@
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-33"
+          "_anchor": "menu-30"
         },
         {
           "_inherit": "msg-box8",
@@ -176,10 +168,285 @@
           ],
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "_name": "msg-box3",
-          "_customHTML": "<section style=\"background-color: #057EAF;padding-left: 5px; padding-top: 5px; padding-bottom: 4px;\">\n\n   \n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n           <div class=\"div1\"><a href=\"#\"> <img src=\"d:/image/png/030-worldwide.png\" style=\"float:left\" width=\"65\" height=\"65\"> <img src=\"d:/logo-4.png\" style=\"float:left;margin:12px 5px\" width=\"80\" height=\"40\"><font face=\"arial\" style=\"font-size:30px; color: rgb(255, 255, 255);font-weight: bold; vertical-align: middle;\">&nbsp;</font></a></div>       \n    </div>           </div>\n               </section>\n",
+          "_customHTML": "<section class=\"mbr-section article\" data-rv-view=\"396\" style=\"background-color: #057EAF; padding-top: 5px; padding-bottom: 4px;\">\n\n   \n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n           <div class=\"div1\"><a href=\"#\"> <img src=\"d:/image/png/030-worldwide.png\" width=\"65\" height=\"65\"> <img src=\"d:/logo-4.png\" width=\"80\" height=\"40\"><font face=\"arial\" style=\"font-size:30px; color: rgb(255, 255, 255);font-weight: bold; vertical-align: middle;\">&nbsp;</font></a></div>       \n    </div>           </div>\n               </section>\n",
           "_customCSS": ".mbr-section-title, p {\n  color: #000;\n}\n.btn {\n  font-size: 100px;\n}\n.mbr-section-title {\n  font-size: 36px;\n  color: #ffffff;\n}\n.div1 {\n    width: 100%;\n    float: center;\n    background: #057EAF;\n    height: 100%; \n    \n}\n\na:hover {\n    text-decoration:none; \n    \n}\n",
           "_customTemplate": true,
           "_anchor": "msg-box3-2h",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/logo-150x80_1.png",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "MODERN STYLES",
+          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "_name": "msg-box3",
+          "_customHTML": "<section class=\"mbr-section article\" data-rv-view=\"396\" style=\"background-color: #fff; padding-top: 6px; padding-bottom: 2px;\">\n\n   \n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n           <div class=\"div1\"><a href=\"#\"> <img src=\"d:/w.png\" width=\"70\" height=\"70\"><font face=\"Arial\" style=\"font-size:20px; color: black ;font-weight: bold; vertical-align: middle;\">&nbsp;Notice</font></a></div> <div class=\"div2\"><a href=\"#\"> <img src=\"d:/x.png\" width=\"70\" height=\"70\"><font face=\"Arial\" style=\"font-size:20px; color:black;font-weight: bold; vertical-align: middle;\">&nbsp;Demand</font></a>            </div>          \n    </div>       \n    </div>\n               </section>\n",
+          "_customCSS": ".mbr-section-title, p {\n  color: #000;\n}\n.btn {\n  font-size: 100px;\n}\n.mbr-section-title {\n  font-size: 36px;\n  color: #ffffff;\n}\n.div1 {\n    width: 50%;\n    float: left;\n    background: #fff;\n    height: 100%;   \n}\n\n.div2 {\n    width: 50%;\n    float: right;\n    background: #fff;\n    height: 100%; \n    \n}\na:hover {\n    text-decoration:none; \n   \n}\n",
+          "_customTemplate": true,
+          "_anchor": "msg-box3-25",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "autoplay": false,
+            "animType": "fade",
+            "theme": "absent",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-850x480.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-15-850x480.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-1-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-2-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-10-850x480.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-2-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-3-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-25-850x480.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-3-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-4-1593x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "file:///D:/wamp/www/taiwan/tw-shokay/assets/images/shokay2017collection-1-850x480.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-4-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": "1",
+            "duration": "0.5",
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-1y"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSearch": false,
+            "rowСount": "1",
+            "colCount": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/sky_1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Name</th></tr></thead><tbody><tr><td><b>Designers Demand</b></td><td><b>Suppliers Demand</b></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_customHTML": "<div class=\"container table-wrapper\" info3-text=\"(filtered from\" data-search=\"false\" search-text=\"Search:\" info1-text=\"Showing\" info2-text=\"entries\" info4-text=\"total entries)\">      \n        <table class=\"table mbr-editable-content\" cellspacing=\"0\" width=\"100%\" code-editable-id=\"266\"><thead><tr></tr></thead><tbody><tr><td><a href=\"#\"><img src=\"d:/13.png\" width=\"80\" height=\"60\"><h5>Buyers</h5></a></td><td><a href=\"#\"><img src=\"d:/14.png\" width=\"60\" height=\"60\"><h5>Suppliers</h5></a></td><td><a href=\"#\"><img src=\"d:/15.png\" width=\"60\" height=\"60\"><h5>Meeting</h5></a></td></tr></tbody></table></div>\n",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nTABLE {\n  text-align: center;\n}\nTD {\n  font-size: 28px;\n    \n  font-family: 'Oxygen', sans-serif;\n}\nB {\n  font-size: 36px;\n}\na:hover {\n    color: red;\n    text-decoration:none; \n    \n}\n",
+          "_customTemplate": true,
+          "_anchor": "extTable1-2i",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSearch": false,
+            "rowСount": "1",
+            "colCount": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/sky_1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Name</th></tr></thead><tbody><tr><td><b>Designers Demand</b></td><td><b>Suppliers Demand</b></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_customHTML": "<section class=\"mbr-section extTable1\" data-rv-view=\"255\" style=\"background-color:White; padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container table-wrapper\" info3-text=\"(filtered from\" data-search=\"false\" search-text=\"Search:\" info1-text=\"Showing\" info2-text=\"entries\" info4-text=\"total entries)\">      \n        <table class=\"table mbr-editable-content\" cellspacing=\"0\" width=\"100%\" code-editable-id=\"219\"><thead><tr></tr></thead><tbody><tr><td><a href=\"#\"><span class=\"fa fa-volume-up mbr-iconfont mbr-iconfont-btn\"></span><h5>Designers Demand</h5></a></td><td><a href=\"#\"><span class=\"fa fa-comment-o mbr-iconfont mbr-iconfont-btn\"></span><h5>Short Text</h5></a></td><td><a href=\"#\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span><h5>Service Support</h5></a></td></tr></tbody></table>\n    </div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nTABLE {\n  text-align: center;\n}\nTD {\n  font-size: 24px;\n    \n  font-family: 'Oxygen', sans-serif;\n}\nB {\n  font-size: 36px;\n}\na:hover {\n    color: red;\n    text-decoration:none; \n    background-color: white;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "extTable1-22",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSearch": false,
+            "rowСount": "1",
+            "colCount": "2",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/sky_3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.4
+          },
+          "title": "TABLE",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Name</th></tr></thead><tbody><tr><td><b>Designers Demand</b></td><td><b>Suppliers Demand</b></td></tr></tbody>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTable1",
+          "_customHTML": "<section class=\"mbr-section extTable1\" data-rv-view=\"255\" style=\"background-color:White; padding-top: 0px; padding-bottom: 0px;\">\n\n    <div class=\"container table-wrapper\" info3-text=\"(filtered from\" data-search=\"false\" search-text=\"Search:\" info1-text=\"Showing\" info2-text=\"entries\" info4-text=\"total entries)\">      \n        <table class=\"table mbr-editable-content\" cellspacing=\"0\" width=\"100%\" code-editable-id=\"245\"><thead><tr></tr></thead><tbody><tr><td><a href=\"#\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span><h5>More News</h5></a></td><td><a href=\"#\"><span class=\"mbri-gift mbr-iconfont mbr-iconfont-btn\"></span><h5>On Sale</h5></a></td><td><a href=\"#\"><span class=\"etl-icon icon-chat mbr-iconfont mbr-iconfont-btn\"></span><h5>Docs Reports</h5></a></td><td><a href=\"#\"><span class=\"fa fa-youtube mbr-iconfont mbr-iconfont-btn\"></span><h5>Live Video</h5></a></td></tr></tbody></table>    </div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nTABLE {\n  text-align: center;\n    \n}\nTD {\n  font-size: 22px;\n    \n  font-family: 'Oxygen', sans-serif;\n}\nB {\n  font-size: 36px;\n}\na:hover {\n    color: red;\n    text-decoration:none; \n    background-color: white;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "extTable1-20",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_name": "social-buttons4",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding\" data-rv-view=\"2997\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n              \n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-size:36px;text-align: center; background-color:#000000; padding-top: 25px; padding-bottom: 15px;\" code-editable-id=\"254\"><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc8QvzXoe5hGYvYhUM0UsOrURJ8XcpToInXDZ564OLiTuikKA/viewform\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Global Designers / Join Now</a></h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customCSS": ".mbr-section-title, .btn-social {\n  color: #fff;\n}\na:hover {\n    color: red;\n    text-decoration:none; }",
+          "_customTemplate": true,
+          "_anchor": "social-buttons4-2p",
           "_PHPplaceholders": [],
           "_JSplaceholders": []
         },
@@ -190,14 +457,10 @@
             },
             ".mbr-section-title": {
               "color": "#ffffff",
-              "font-size": "30px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-size": "25px"
             },
             ".lead P": {
-              "font-size": "17px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-size": "14px"
             }
           },
           "_tags": [
@@ -209,7 +472,7 @@
             "showTitle": true,
             "showText": true,
             "showButton": false,
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/fashion-design-slide-1-2000x833.jpg",
@@ -254,54 +517,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503-403x503.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503.jpg",
-                "caption": "Type caption here",
-                "active": true,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395-292x395.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/i98mage1-819x525-800x512.jpg",
-                "image": "@PROJECT_PATH@/assets/images/i98mage1-819x525.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7898-349x443-349x443.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7898-349x443.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-8150-617x978-617x978.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-8150-617x978.jpg",
                 "caption": "Type caption here",
-                "active": false,
+                "active": true,
                 "alt": ""
               },
               {
@@ -1245,6 +1464,38 @@
           "articleLayout": false,
           "allItem": "All",
           "_customCSS": ".mbr-gallery .mbr-gallery-item {\n  position: relative;\n  display: inline-block;\n  width: 20%; }\n  @media (max-width: 768px) {\n    .mbr-gallery .mbr-gallery-item {\n      width: 50%; } }\n  @media (max-width: 400px) {\n    .mbr-gallery .mbr-gallery-item {\n      width: 50%; } }"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "_name": "social-buttons4",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding\" data-rv-view=\"2997\" style=\"background-color: rgb(0, 0, 0); padding-top: 0px; padding-bottom: 0px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n              \n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"font-size:36px;text-align: center; background-color:#000000; padding-top: 25px; padding-bottom: 15px;\" code-editable-id=\"252\"><a href=\"https://www.123contactform.com/form-2764113/\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Global Suppliers / Join Now</a></h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customCSS": ".mbr-section-title, .btn-social {\n  color: #fff;\n}\na:hover {\n    color: red;\n    text-decoration:none; }",
+          "_customTemplate": true,
+          "_anchor": "social-buttons4-2r",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_params": {

@@ -30,7 +30,9 @@
     "noImageResize": "",
     "screenshot": "screenshot.png",
     "google-analytics": "",
-    "cookiesAlert": ""
+    "cookiesAlert": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -254,21 +256,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503-403x503.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/goganikabadzembfwrarrivalsfrontrowviewssb31twlanvsl-594x396-594x396.jpg",
+                "image": "@PROJECT_PATH@/assets/images/goganikabadzembfwrarrivalsfrontrowviewssb31twlanvsl-594x396.jpg",
                 "caption": "Type caption here",
                 "active": true,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395-292x395.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395.jpg",
-                "caption": "Type caption here",
-                "active": false,
                 "alt": ""
               },
               {
@@ -287,8 +278,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7898-349x443-349x443.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7898-349x443.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/692x461-692x461.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-692x461.jpg",
                 "caption": "Type caption here",
                 "active": false,
                 "alt": ""

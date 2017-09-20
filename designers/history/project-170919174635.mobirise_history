@@ -30,7 +30,9 @@
     "noImageResize": "",
     "screenshot": "screenshot.png",
     "google-analytics": "",
-    "cookiesAlert": ""
+    "cookiesAlert": "",
+    "publishType": "local",
+    "publishPath": "file:///D:/wamp/www/hm-2"
   },
   "pages": {
     "index.html": {
@@ -91,7 +93,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#000000!important"
+              "color": "@primaryColor!important"
             },
             ".btn": {
               "font-size": "18px",
@@ -254,54 +256,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503-403x503.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503.jpg",
-                "caption": "Type caption here",
-                "active": true,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395-292x395.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/i98mage1-819x525-800x512.jpg",
-                "image": "@PROJECT_PATH@/assets/images/i98mage1-819x525.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7898-349x443-349x443.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7898-349x443.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-8150-617x978-617x978.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-8150-617x978.jpg",
                 "caption": "Type caption here",
-                "active": false,
+                "active": true,
                 "alt": ""
               },
               {
