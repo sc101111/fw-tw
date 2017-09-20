@@ -770,16 +770,12 @@ h6,
 }
 #msg-box8-1a .mbr-section-title {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 24px;
   font-family: 'Open Sans', sans-serif;
 }
 #msg-box8-1a .lead P {
   font-size: 17px;
   font-family: 'Open Sans', sans-serif;
-}
-#msg-box6-3a .mbr-section-title,
-#msg-box6-3a .lead p {
-  color: #fff;
 }
 #gallery1-1b .mbr-gallery-item > div > span SPAN {
   font-size: 16px;
