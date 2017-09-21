@@ -32,7 +32,9 @@
     "noImageResize": "",
     "screenshot": "screenshot.png",
     "google-analytics": "",
-    "cookiesAlert": ""
+    "cookiesAlert": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -256,8 +258,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/leka-portrait-2.a665a9e1c56e0e725bf50242430a7f4f-660x993-660x993.jpg",
-                "image": "@PROJECT_PATH@/assets/images/leka-portrait-2.a665a9e1c56e0e725bf50242430a7f4f-660x993.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503-403x503.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20140056_1822481637778691_1101919753761645308_n-403x503.jpg",
                 "caption": "Type caption here",
                 "active": true,
                 "alt": ""
@@ -267,19 +269,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503-403x503.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20140056-1822481637778691-1101919753761645308-n-403x503.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395-292x395.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ontrowviewssb31twlanvsl-292x395.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ont+row+views+sb31twlanvsl-292x395.jpg",
                 "caption": "Type caption here",
                 "active": false,
                 "alt": ""
@@ -1248,17 +1239,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/jenn-lee-460x460-460x460.jpg",
                 "image": "@PROJECT_PATH@/assets/images/jenn-lee-460x460.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/about-photo-2-528x692-528x692.jpg",
-                "image": "@PROJECT_PATH@/assets/images/about-photo-2-528x692.jpg",
                 "caption": "Type caption here",
                 "active": false,
                 "alt": ""
