@@ -25,7 +25,7 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 123,
+    "uniqCompNum": 122,
     "versionPublish": "4.3.0",
     "path": "@PROJECT_PATH@",
     "favicon": "@PROJECT_PATH@/assets/images/030-worldwide-128x128.png",
@@ -43,7 +43,7 @@
         "title": "",
         "meta_descr": "",
         "header_custom": "<link href=\"css/main.css\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css?family=Roboto+Slab\" rel=\"stylesheet\">",
-        "footer_custom": "body, html { \n    overflow-x: hidden; \n    overflow-y: auto;\n}",
+        "footer_custom": "",
         "html_before": ""
       },
       "components": [
@@ -145,8 +145,7 @@
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-33",
-          "_customCSS": ""
+          "_anchor": "menu-33"
         },
         {
           "_inherit": "msg-box8",
@@ -231,8 +230,7 @@
           },
           "title": "&nbsp;Fashion Register",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
-          "_customCSS": ""
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
           "_tags": [
@@ -263,7 +261,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/leka-portrait-2.a665a9e1c56e0e725bf50242430a7f4f-660x993-660x993.jpg",
                 "image": "@PROJECT_PATH@/assets/images/leka-portrait-2.a665a9e1c56e0e725bf50242430a7f4f-660x993.jpg",
                 "caption": "Type caption here",
-                "active": false,
+                "active": true,
                 "alt": ""
               },
               {
@@ -1266,35 +1264,13 @@
                 "caption": "Type caption here",
                 "active": false,
                 "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/99351661-500x667-500x667.jpg",
-                "image": "@PROJECT_PATH@/assets/images/99351661-500x667.jpg",
-                "caption": "Type caption here",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mn12-9-450x676-450x676.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mn12-9-450x676.jpg",
-                "caption": "Type caption here",
-                "active": true,
-                "alt": ""
               }
             ]
           },
           "_anchor": "gallery1-1b",
           "articleLayout": false,
           "allItem": "All",
-          "_customCSS": ""
+          "_customCSS": ".mbr-gallery .mbr-gallery-item {\n  position: relative;\n  display: inline-block;\n  width: 20%; }\n  @media (max-width: 768px) {\n    .mbr-gallery .mbr-gallery-item {\n      width: 50%; } }\n  @media (max-width: 400px) {\n    .mbr-gallery .mbr-gallery-item {\n      width: 50%; } }"
         },
         {
           "_params": {
