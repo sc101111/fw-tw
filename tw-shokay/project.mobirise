@@ -26,7 +26,7 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 82,
+    "uniqCompNum": 86,
     "versionPublish": "4.3.0",
     "path": "@PROJECT_PATH@",
     "favicon": "",
@@ -141,24 +141,13 @@
           "_customCSS": ""
         },
         {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            },
-            "DIV": {
-              "font-size": "25px",
-              "color": "#ffffff"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showText": false,
             "showButtons": false,
             "inverse": false,
-            "imageSize": "35",
-            "paddingTop": "2",
-            "paddingBottom": "0",
+            "showArrow": true,
+            "imageSize": "37",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/shokay2017collection-847x477.jpg",
             "parallax": true,
@@ -169,18 +158,17 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0"
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/founders-339x421.jpg",
+              "src": "@PROJECT_PATH@/assets/images/founders-2-339x421.jpg",
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -189,20 +177,24 @@
               "loop": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "class": "mbr-iconfont mbr-iconfont-header2",
               "link": "",
               "size": 250
             }
           },
-          "title": "<div>\n</div><div>Shokay</div><div>Carol Chyau, Taiwan, Asia</div>",
-          "text": "",
+          "title": "Shokay<br>Carol Chyau, Taiwan, Asia",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box6",
-          "_anchor": "msg-box6-1g",
-          "_customCSS": ""
+          "_name": "header2",
+          "_anchor": "header2-2b",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
@@ -787,7 +779,8 @@
               "color": "#000000"
             },
             ".mbr-section-title SPAN": {
-              "color": "#c1c1c1"
+              "color": "#ffffff",
+              "font-size": "30px"
             }
           },
           "_anchor": "header4-s",
@@ -813,7 +806,7 @@
             "overlayColor": "#000000",
             "overlayOpacity": "0"
           },
-          "title": "<div><span style=\"color: rgb(0, 0, 0);\">Shokay 17' 18' Collection,<br>Taiwan, Asia</span><br></div>",
+          "title": "<span style=\"color: rgb(0, 0, 0);\">Shokay 18'<br></span><br>",
           "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">One Art</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">One Product</a>"
         },
@@ -884,7 +877,7 @@
           "text1": "Our goal is to combine the use of new functional yarns by global fashion designers and fiber manufacturers to help entrepreneurs set up brands, build a global market and create more comfortable wear.",
           "text2": "+886-2-23435688",
           "text3": "4th.,fl, No.: 130, 2nd sec., Zhongxiao East Road. Taipei, Taiwan",
-          "text4": "sc101@digital-act.com",
+          "text4": "shop@shokay.com",
           "text5": "<li>Stockist</li><li>Press</li><li>Corporation</li><li>Join Designers</li><li>Join Suppliers</li>",
           "text6": "<strong>Contacts</strong><br>SHOKAY Taiwan\n<br>TEL: (+886)2-2393-7914\n<br>FAX: (+886)2-2343-5666\n<br>ADD: 4F-4, 130 Sec.2, Zhong Xiao E. Rd.\nE-MAIL: tw.shop@shokay.com\n<br><br>SHOKAY Design &amp; Research Center\n<br>TEL: (+86)021-5279-8503\n<br>ADD: 4th Floor, Unit 400, Building 7, #652 Changshou Lu Shanghai, China\n<br>E-MAIL: shop@shokay.com<br><br><strong>Address</strong><br>4th.,fl, No.: 130, 2nd sec., Zhongxiao East Road. Taipei, Taiwan<br>",
           "form": {

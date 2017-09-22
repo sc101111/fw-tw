@@ -745,13 +745,8 @@ h6,
 #menu-1o .btn {
   font-size: 20px;
 }
-#msg-box6-1g .mbr-section-title,
-#msg-box6-1g .lead p {
-  color: #fff;
-}
-#msg-box6-1g DIV {
-  font-size: 25px;
-  color: #ffffff;
+#header2-2b .mbr-section-title {
+  font-size: 36px;
 }
 #extFeatures13-1n .etl-icon {
   color: #000000;
@@ -797,7 +792,8 @@ h6,
   color: #000000;
 }
 #header4-s .mbr-section-title SPAN {
-  color: #c1c1c1;
+  color: #ffffff;
+  font-size: 30px;
 }
 #contacts3-29 .btn {
   font-family: 'Lato', sans-serif;
