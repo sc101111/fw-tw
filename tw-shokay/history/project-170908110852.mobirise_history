@@ -26,8 +26,8 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 82,
-    "versionPublish": "4.3.0",
+    "uniqCompNum": 81,
+    "versionPublish": "4.2.4",
     "path": "@PROJECT_PATH@",
     "favicon": "",
     "noImageResize": "",
@@ -422,7 +422,7 @@
           "_params": {
             "autoplay": false,
             "animType": "fade",
-            "theme": "absent",
+            "theme": "angular",
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1593x900.jpg",
@@ -432,44 +432,44 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-85x48.png",
                 "title": "title 2",
                 "text": "text 2",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1-1593x900.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-15-850x480.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-1-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-2-1593x900.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-10-850x480.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-2-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-3-1593x900.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-25-850x480.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-3-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
                 "active": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-4-1593x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1592x900.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-1-850x480.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-4-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-846x478.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-84x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1600x898.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-849x477.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-85x47.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1595x900.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-851x480.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-1-85x47.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/shokay2017collection-1600x899.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/shokay2017collection-2-850x478.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/shokay2017collection-2-85x47.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
@@ -819,129 +819,6 @@
         },
         {
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "file:///C:/Users/User/AppData/Local/Mobirise.com/Mobirise/projectData/tb1fvfqqpxxxxb.xvxxxxxxxxxx-1530-1530x1164.png",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": "0.9"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/main-265x211.png",
-              "class": "card-img-top",
-              "width": 265,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
-              "linkInNewWindow": false,
-              "name": "touch",
-              "family": "MobiriseIcons",
-              "link": "index.html",
-              "size": "90",
-              "newWindow": false,
-              "color": "#ffffff"
-            }
-          },
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts3",
-              "name": "phone",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts3",
-              "name": "map-pin",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts3",
-              "name": "envelope",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span>Contact us</a>",
-          "title1": "Categories",
-          "text1": "Our goal is to combine the use of new functional yarns by global fashion designers and fiber manufacturers to help entrepreneurs set up brands, build a global market and create more comfortable wear.",
-          "text2": "+886-2-23435688",
-          "text3": "4th.,fl, No.: 130, 2nd sec., Zhongxiao East Road. Taipei, Taiwan",
-          "text4": "sc101@digital-act.com",
-          "text5": "<li>Stockist</li><li>Press</li><li>Corporation</li><li>Join Designers</li><li>Join Suppliers</li>",
-          "text6": "<strong>Contacts</strong><br>SHOKAY Taiwan\n<br>TEL: (+886)2-2393-7914\n<br>FAX: (+886)2-2343-5666\n<br>ADD: 4F-4, 130 Sec.2, Zhong Xiao E. Rd.\nE-MAIL: tw.shop@shokay.com\n<br><br>SHOKAY Design &amp; Research Center\n<br>TEL: (+86)021-5279-8503\n<br>ADD: 4th Floor, Unit 400, Building 7, #652 Changshou Lu Shanghai, China\n<br>E-MAIL: shop@shokay.com<br><br><strong>Address</strong><br>4th.,fl, No.: 130, 2nd sec., Zhongxiao East Road. Taipei, Taiwan<br>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "simonchang1108@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts3",
-          "_styles": {
-            ".btn": {
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
-            },
-            "LI": {
-              "color": "#ffffff",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            "P": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            ".list-group-text": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          },
-          "_anchor": "contacts3-29"
-        },
-        {
-          "_params": {
             "showTitle": true,
             "showContacts": true,
             "showSubtitle": true,
@@ -955,7 +832,7 @@
               "stateDetails": ""
             },
             "bgImageRadio": false,
-            "bgImage": "/addons/mobirise3-blocks/components/_images/img_extForm1_bg.jpg",
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extForm1_bg.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#2e2e2e",
@@ -970,7 +847,7 @@
           "title": "DROP A MESSAGE",
           "title1": "To : Shokay<br>",
           "title2": "Visit our office",
-          "subTitle1": "SHOKAY Taiwan\n<div>TEL: (+886)2-2393-7914\n</div><div>FAX: (+886)2-2343-5666\n</div><div>ADD: 4F-4, 130 Sec.2, Zhong Xiao E. Rd.\n</div><div>E-MAIL: tw.shop@shokay.com\n</div><div>\n</div><div>SHOKAY Design &amp; Research Center\n</div><div>TEL: (+86)021-5279-8503\n</div><div>ADD: 4th Floor, Unit 400, Building 7, #652 Changshou Lu Shanghai, China\n</div><div>E-MAIL: shop@shokay.com\n</div>",
+          "subTitle1": "4th.,fl, No.: 130, 2nd sec., Zhongxiao East Road. Taipei, Taiwan<br>Phone: &nbsp;+886-2-23435688<br><div>Fax: +886-2-23435666</div>",
           "subTitle2": "Glad to meet new people",
           "text1": "",
           "text2": "1234 Street Name </br> City AA 99999",

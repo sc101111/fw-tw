@@ -2,8 +2,13 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
+
+
 
 
 
@@ -793,6 +798,19 @@ h6,
 }
 #header4-s .mbr-section-title SPAN {
   color: #c1c1c1;
+}
+#contacts3-29 .btn {
+  font-family: 'Lato', sans-serif;
+}
+#contacts3-29 LI {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+#contacts3-29 P {
+  font-family: 'Montserrat', sans-serif;
+}
+#contacts3-29 .list-group-text {
+  font-family: 'Montserrat', sans-serif;
 }
 #extForm4-12 H2 {
   font-size: 36px;
